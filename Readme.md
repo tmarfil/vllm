@@ -93,10 +93,10 @@ Here are some examples of running different models:
 vllm serve "Qwen/Qwen2.5-VL-7B-Instruct" --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 16 --max-model-len 8192
 ```
 
-### Larger Code Model (32B)
+### Code Model (7B)
 
 ```bash
-vllm serve "Qwen/Qwen2.5-Coder-32B-Instruct" --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 32 --max-model-len 8192
+vllm serve "Qwen/Qwen2.5-Coder-7B-Instruct" --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 16 --max-model-len 8192
 ```
 
 ## Testing the API
