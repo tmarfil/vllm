@@ -215,8 +215,14 @@ For "Cannot access gated repo" errors:
 - Check that your token has the correct permissions
 - Ensure you're properly logged in with `huggingface-cli login`
 
-## Resources
+### Resources
 
 - [vLLM Documentation](https://docs.vllm.ai/)
 - [vLLM GitHub Repository](https://github.com/vllm-project/vllm)
 - [Hugging Face Models](https://huggingface.co/models)
+
+### Disk Usage
+
+```bash
+du -sh ~/.cache/huggingface/hub/
+```
