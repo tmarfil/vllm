@@ -87,12 +87,6 @@ Parameters explained:
 
 Here are some examples of running different models:
 
-### Multimodal Model (7B)
-
-```bash
-vllm serve "Qwen/Qwen2.5-VL-7B-Instruct" --tensor-parallel-size 2 --gpu-memory-utilization 0.95 --swap-space 16 --max-model-len 8192
-```
-
 ### Code Model (7B)
 
 ```bash
