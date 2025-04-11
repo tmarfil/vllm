@@ -14,7 +14,3 @@ response = requests.post(
 
 # Pretty print the entire response
 print(json.dumps(response.json(), indent=2))
-
-# Or just print the content
-print("\nJust the response content:")
-print(response.json()['choices'][0]['message']['content'])
